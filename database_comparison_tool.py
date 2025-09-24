@@ -241,19 +241,19 @@ if __name__ == "__main__":
     # 过滤指定表
     # tool.filter_table_name([""])
     tool.source_db_connect(
-        host = "oms-cwae.baas.zsmart.com" ,
-        port = 20512,
-        db = "oms_ord",
-        user = "root",
-        password = "Ztesoft$123"
+        host = "" ,
+        port = ,
+        db = "",
+        user = "",
+        password = ""
     )
 
     tool.target_db_connect(
-        host = "10.45.80.112" ,
-        port = 8901,
-        db = "omsord",
-        user = "omsord",
-        password = "1jian8Shu)",
+        host = "" ,
+        port = ,
+        db = "",
+        user = "",
+        password = "",
     )
 
     # 导出差异表： 1.全部、2.表、3.字段
